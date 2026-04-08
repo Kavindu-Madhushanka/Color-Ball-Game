@@ -1,35 +1,16 @@
-/* සියලුම default margins සහ පෑඩින් අයින් කරන්න */
-:root {
-  color-scheme: dark; /* Browser එකට කියනවා මේක dark theme එකක් කියලා */
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@400;700&display=swap");
 
 html,
 body {
-  width: 100% !important;
-  height: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  background-color: #000000 !important; /* කළු පාටට බලකිරීම */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000; /* Letterboxing කළු පාටට */
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #app {
   width: 100%;
   height: 100%;
-  background-color: #000;
-}
-
-canvas {
-  /* Canvas එක මැදට ගන්න සහ සුදු බෝඩර් නැති කරන්න */
-  display: block;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
